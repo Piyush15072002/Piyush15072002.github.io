@@ -6,7 +6,6 @@ const Layout = () => {
 
         <Sidebar />
 
-        Hello
     </>
 }
 
