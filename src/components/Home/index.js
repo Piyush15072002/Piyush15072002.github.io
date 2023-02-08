@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import './index.scss'
 import AnimatedLetter from '../AnimatedLetters/index.js'
 
@@ -10,10 +10,14 @@ const Home = () => {
 
     const nameArray = ['P', 'i', 'y', 'u', 's', 'h', ' ', 'P', 'a', 'n', 't']
 
-    const jobArray = ['M', 'a', 'c', 'h', 'i', 'n', 'e', ' ', 'L', 'e', 'a', 'r', 'n', 'i', 'n', 'g', ' ', 'E', 'n', 'g', 'i', 'n', 'e', 'e', 'r', ',', ' ', 'A', 'K', 'A', ' ', 'D', 'a', 't', 'a', ' ', 'S', 'c', 'i', 'e', 'n', 't', 'i', 's', 't', ' ', 'b', 'u', 't', ' ', 'T', 'e', 'c', 'h', 'n', 'i', 'c', 'a', 'l']
+    const jobArray = ['Machine', ' ', 'Learning', ' ', 'Engineer', ',', ' ', 'A', 'K', 'A', ' ', 'Data', ' ', 'Scientist', ' ', 'but', ' ', 'Technical']
 
 
-
+    useEffect(() => {
+        setTimeout(() => {
+            setLetterClass('text-animate-hover')
+        }, 7000)
+    }, [])
 
 
     return (
@@ -37,8 +41,8 @@ const Home = () => {
 
                 <br />
 
-                <h2>
-                    <AnimatedLetter letterClass={letterClass} strArray={jobArray} index={31} />
+                <h2> <i>
+                    <AnimatedLetter letterClass={letterClass} strArray={jobArray} index={31} /></i>
                 </h2>
             </div>
 
