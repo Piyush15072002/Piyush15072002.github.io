@@ -1,10 +1,10 @@
 import './index.scss'
-import logo from '../../../assets/images/logo-s.png'
+import logo from '../../../assets/images/m.gif';
 
 const Logo = () => {
     return (
         <div className="logo-container">
-            <img className="solid-logo" src={logo} alt="Name" />
+            <img className="myLogo" src={logo} alt="Name" />
         </div>
     )
 }
