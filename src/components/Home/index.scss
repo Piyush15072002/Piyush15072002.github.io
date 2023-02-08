@@ -5,7 +5,7 @@
     .text-zone{
         position: absolute;
         left:5%;
-        top:30%;
+        top:25%;
         transform: translateY(-50%);
         width: 40%;
         max-height: 90%;
@@ -51,6 +51,8 @@
 
     h2{
         color:rgb(255, 158, 174);
+        letter-spacing: 1px;
+        animation:  fadeIn 1s 1.8s backwards;
         
     }
 }
