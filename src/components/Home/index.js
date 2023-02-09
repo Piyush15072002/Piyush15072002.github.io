@@ -52,7 +52,7 @@ const Home = () => {
             </div>
 
             <NavLink className="button-link" exact='true' activeclassname="active" to="/about" >
-                from ME import *
+                from ME import &#9733;
             </NavLink>
 
             <Logo />
