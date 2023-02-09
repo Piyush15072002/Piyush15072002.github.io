@@ -84,7 +84,7 @@
 
         p{
             font-size: 13px;
-            color:rgb(255, 195, 195);
+            color:rgb(220, 184, 255);
             font-family: arial;
 
             font-weight:300;
@@ -95,13 +95,20 @@
                 animation-delay: 1.1s;
             }
             &:nth-of-type(2){
-                animation-delay: 1.3s;
+                animation-delay: 1.2s;
             }
             &:nth-of-type(3){
-                animation-delay: 1.5s;
+                animation-delay: 1.3s;
             }
             &:nth-of-type(4){
-                animation-delay: 1.7s;
+                animation-delay: 1.4s;
+            }
+
+            &:hover{
+                color:white;
+                transition:0.4s;
+                
+                
             }
 
         }
