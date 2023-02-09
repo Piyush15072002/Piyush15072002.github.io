@@ -3,6 +3,8 @@ import './index.scss'
 import AnimatedLetter from '../AnimatedLetters/index.js'
 import Logo from './Logo'
 import { NavLink } from 'react-router-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faRotate } from '@fortawesome/free-solid-svg-icons'
 
 
 
@@ -13,6 +15,10 @@ const Home = () => {
     const nameArray = ['P', 'i', 'y', 'u', 's', 'h', ' ', 'P', 'a', 'n', 't']
 
     const jobArray = ['Machine', ' ', 'Learning', ' ', 'Engineer', ',', ' ', 'A', 'K', 'A', ' ', 'Data', ' ', 'Scientist', ' ', 'but', ' ', 'Technical']
+
+    const reloadNow = () => {
+        window.location.reload();
+    }
 
 
     useEffect(() => {
@@ -57,8 +63,9 @@ const Home = () => {
 
             <Logo />
 
-
-
+            <button title='Refresh | Change background' className='Refresh' onClick={reloadNow}>
+                <FontAwesomeIcon className="refreshIcon" icon={faRotate} color="rgb(170, 255, 255)"></FontAwesomeIcon>
+            </button>
         </div >
     )
 }

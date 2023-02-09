@@ -32,6 +32,7 @@ const Sidebar = () => (
                     target="_blank"
                     rel="noreferrer"
                     href="https://github.com/Piyush15072002"
+                    title="GitHub | Piyush Pant"
                 >
                     <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
                 </a>
@@ -42,6 +43,7 @@ const Sidebar = () => (
                     target="_blank"
                     rel="noreferrer"
                     href="https://www.linkedin.com/in/piyush-pant/"
+                    title="LinkedIn | Piyush Pant"
                 >
                     <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
                 </a>
@@ -52,6 +54,7 @@ const Sidebar = () => (
                     target="_blank"
                     rel="noreferrer"
                     href="https://scholar.google.com/citations?user=I3-AR5MAAAAJ&hl=en"
+                    title="Google Scholar | Piyush Pant"
                 >
                     <FontAwesomeIcon icon={faGraduationCap} color="#4d4d4e" />
                 </a>
@@ -62,6 +65,7 @@ const Sidebar = () => (
                     target="_blank"
                     rel="noreferrer"
                     href="https://orcid.org/0000-0003-0991-9454"
+                    title="ORCID | Piyush Pant"
                 >
                     <FontAwesomeIcon icon={faOrcid} color="#4d4d4e" />
                 </a>

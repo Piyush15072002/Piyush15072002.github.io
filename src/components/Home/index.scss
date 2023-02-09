@@ -58,6 +58,11 @@
         
     }
 
+
+    
+
+
+
     
 }
 
@@ -90,3 +95,24 @@
         
     }
 }
+
+
+.Refresh{
+    background-color:transparent;
+    font-size: 25px;
+    border: none;
+    cursor:pointer;
+    color:rgb(170, 255, 255);
+    margin-left:80%;
+    
+
+        &:hover svg{
+            color:cyan; 
+            transition: 0.5s;
+            transform: rotate(180deg); 
+
+        }
+        
+    
+}
+
