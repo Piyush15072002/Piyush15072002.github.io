@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import './index.scss'
 import AnimatedLetter from '../AnimatedLetters/index.js'
 import Logo from './Logo'
+import { NavLink } from 'react-router-dom'
 
 
 
@@ -45,13 +46,20 @@ const Home = () => {
                 <h2> <i>
                     <AnimatedLetter letterClass={letterClass} strArray={jobArray} index={31} /></i>
                 </h2>
+
+
+
             </div>
+
+            <NavLink className="button-link" exact='true' activeclassname="active" to="/about" >
+                from ME import *
+            </NavLink>
 
             <Logo />
 
 
 
-        </div>
+        </div >
     )
 }
 

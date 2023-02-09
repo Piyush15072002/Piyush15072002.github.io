@@ -5,7 +5,7 @@
     .text-zone{
         position: absolute;
         left:5%;
-        top:25%;
+        top:30%;
         transform: translateY(-50%);
         width: 40%;
         max-height: 90%;
@@ -52,9 +52,37 @@
     h2{
         color:rgb(255, 158, 174);
         // letter-spacing: 1px;
-        font-size:17px;
+        font-size:16px;
         font-family: 'sans serif';
         animation:  fadeIn 1s 1.8s backwards;
+        
+    }
+
+    
+}
+
+.button-link{
+    color: inherit;
+    position: relative;
+    margin-top: 500px;
+    color:rgb(0, 151, 151);
+    font-size:20px;
+    font-family: 'Broadley';
+    border: 5px solid rgb(0, 151, 151);
+    padding: 15px 25px;
+    transform: translateY(-3px);
+    transition: 0.3s;
+
+    text-decoration: none;
+
+    top:310px;
+    left:150px;
+
+
+    &:hover{
+        color:cyan;
+        border-color: cyan;
+        box-shadow: 5px 5px 9px cyan;
         
     }
 }
