@@ -2,7 +2,7 @@ import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faJava, faJs, faNode, faPython, faReact, faRProject } from '@fortawesome/free-brands-svg-icons'
+import { faGitAlt, faJava, faJs, faNode, faPython, faReact, faRProject } from '@fortawesome/free-brands-svg-icons'
 import { faBrain } from '@fortawesome/free-solid-svg-icons'
 
 const textArray = ['A', 'b', 'o', 'u', 't', ' ', 'M', 'e']
@@ -38,22 +38,22 @@ const About = () => {
                 <div className="cubespinner">
 
                     <div className="face1">
-                        <FontAwesomeIcon icon={faPython} color="blue" />
+                        <FontAwesomeIcon icon={faPython} color="#4B8BBE" />
                     </div>
                     <div className="face2">
-                        <FontAwesomeIcon icon={faReact} color="blue" />
+                        <FontAwesomeIcon icon={faReact} color="#61dbfb" />
                     </div>
                     <div className="face3">
-                        <FontAwesomeIcon icon={faNode} color="blue" />
+                        <FontAwesomeIcon icon={faNode} color="#3C873A" />
                     </div>
                     <div className="face4">
-                        <FontAwesomeIcon icon={faRProject} color="blue" />
+                        <FontAwesomeIcon icon={faRProject} color="#165CAA" />
                     </div>
                     <div className="face5">
-                        <FontAwesomeIcon icon={faJava} color="blue" />
+                        <FontAwesomeIcon icon={faGitAlt} color="#f34f29" />
                     </div>
                     <div className="face6">
-                        <FontAwesomeIcon icon={faJs} color="blue" />
+                        <FontAwesomeIcon icon={faJs} color="#f0db4f" />
                     </div>
                 </div>
 
