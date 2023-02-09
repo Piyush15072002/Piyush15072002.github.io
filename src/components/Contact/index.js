@@ -38,19 +38,19 @@ const Contact = () => {
 
                         <form action="">
                             <ul>
-
-                                <li className='half'>
-                                    <input type="text" name="name" placeholder='Name' required />
-                                </li>
-                                <li className='half'>
-                                    <input type="email" name="email" placeholder='email@gmail.com' required />
-                                </li>
-
-                                <li>
+                                <div className="group">
+                                    <li >
+                                        <input type="text" name="name" placeholder='Name' required />
+                                    </li>
+                                    <li >
+                                        <input type="email" name="email" placeholder='email@gmail.com' required />
+                                    </li>
+                                </div>
+                                <li className="subject">
                                     <input placeholder="Subject" type="text" name="subject" />
                                 </li>
 
-                                <li>
+                                <li className='textarea' >
                                     <textarea name="message" placeholder='Here you go!' required cols="22" rows="3"></textarea>
                                 </li>
                                 <li>

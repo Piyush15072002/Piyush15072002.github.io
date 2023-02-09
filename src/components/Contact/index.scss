@@ -1,7 +1,7 @@
 .contact-form{
     width: 100%;
-    margin-top:250px;
-    // margin-left: -150px;
+    margin-top:220px;
+    margin-left: -80px;
     text-align: left;
     
 
@@ -24,44 +24,70 @@
             
 
         }
-        li.half{
-              width: 49%;  
-              margin-left: 2%;
-              float: left;
-              clear: none;
-
-              &:first-child{
-                margin-left: 0;
+        div.group{
+            li:nth-child(1){
+                width: 47%;
+                margin-left: 3%;
+                float: left;
+                clear: none;
                 
+                input{
 
-              }
+                }
+                
+            }
+            li:nth-child(2){
+                width:47%;
+                margin-left: 3%;
+                float: left;
+                clear: none;
+                
+                input{
+
+                }
+                
+            }
+            display: inline-block;
+            
+
         }
 
-    }
+        li.subject{
+            width: 100%;
+            input{
+                width: 100%;
+            }
 
-    input[type='text'], input[type='text']{
-        width: 100%;
-        border:0;
-        background: darkblue;
-        height:50px;
-        font-size: 16px;
-        color:white;
-        padding: 0 20px;
-        box-sizing: border-box;
-    }
 
-    textarea{
-        width: 100%;
-        border: 0;
-        background: darkblue;
-        height:50px;
-        font-size: 16px;
-        color:white;
-        padding: 20px;
-        min-height:150px;
-        box-sizing: border-box;
+        }
+        
+        
 
     }
+
+    // input[type='text'], input[type='text']{
+    //     width: 100%;
+    //     border:0;
+    //     background: darkblue;
+    //     height:50px;
+    //     font-size: 16px;
+    //     color:white;s
+    //     padding: 0 20px;
+    //     box-sizing: border-box;
+    // }
+
+    // textarea{
+    //     width: 100%;
+    //     border: 0;
+    //     background: darkblue;
+    //     height:50px;
+    //     font-size: 16px;
+    //     color:white;
+    //     padding: 20px;
+    //     min-height:150px;
+    //     box-sizing: border-box;
+
+    // }
 
     .flat-button{
         color: green;
