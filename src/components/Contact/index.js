@@ -51,7 +51,7 @@ const Contact = () => {
                                 </li>
 
                                 <li>
-                                    <textarea name="message" placeholder='Here you go!' required cols="30" rows="10"></textarea>
+                                    <textarea name="message" placeholder='Here you go!' required cols="22" rows="3"></textarea>
                                 </li>
                                 <li>
                                     <input type="submit" className='flat-button' value="SEND" />
