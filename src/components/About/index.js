@@ -2,8 +2,8 @@ import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGitAlt, faJava, faJs, faNode, faPython, faReact, faRProject } from '@fortawesome/free-brands-svg-icons'
-import { faBrain } from '@fortawesome/free-solid-svg-icons'
+import { faGitAlt, faJs, faNode, faPython, faReact, faRProject } from '@fortawesome/free-brands-svg-icons'
+
 
 const textArray = ['A', 'b', 'o', 'u', 't', ' ', 'M', 'e']
 
