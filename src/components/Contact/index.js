@@ -1,17 +1,36 @@
 import './index.scss'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters/index.js'
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
+import emailjs from '@emailjs/browser';
+
 
 
 const Contact = () => {
 
     const contactArray = ['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'M', 'e', '!']
 
-    const refForm = useRef
+    const refForm = useRef();
 
     const sendEmail = (e) => {
         e.preventDefault()
+        emailjs.sendForm(
+            'service_g9yh7gk',
+            'template_oqgvb3g',
+            refForm.current,
+            'I3wDWo4x8QB_aRp2e'
+        )
+            .then(
+                (result) => {
+                    alert('Message sent successfully: Thank you so much for your message!')
+                    window.location.reload(false)
+
+                },
+                (error) => {
+                    alert("Failed to send the message, Please try again!")
+
+                }
+            );
     }
 
 
