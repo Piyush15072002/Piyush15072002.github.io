@@ -114,11 +114,11 @@ const Contact = () => {
 
                 <div className="map-wrap">
 
-                    <MapContainer center={[19.0760, 72.8777]} zoom={4}>
+                    <MapContainer center={[19.9975, 73.7898]} zoom={4}>
 
                         <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
 
-                        <Marker icon={myIcon} position={[19.0760, 72.8777]}>
+                        <Marker icon={myIcon} position={[19.9975, 73.7898]}>
 
                             <Popup> <b style={{ fontSize: "12px" }} >
                                 Let's meet for a coffee! </b>
