@@ -8,6 +8,13 @@ const Contact = () => {
 
     const contactArray = ['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'M', 'e', '!']
 
+    const refForm = useRef
+
+    const sendEmail = (e) => {
+        e.preventDefault()
+    }
+
+
     const [letterClass, setLetterClass] = useState('text-animate')
 
     useEffect(() => {
@@ -36,7 +43,7 @@ const Contact = () => {
 
                     <div className="contact-form">
 
-                        <form action="">
+                        <form ref={refForm} onSubmit={sendEmail}>
                             <ul>
                                 <div className="group">
                                     <li >
