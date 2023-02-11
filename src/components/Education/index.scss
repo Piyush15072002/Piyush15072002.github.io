@@ -1,0 +1,28 @@
+
+.su1{
+    width:400px;
+    height: 250px;
+    position: relative;
+    top: -500px;
+    left:600px;
+    opacity: 0.3;
+    // border-radius: 50%;
+}
+.kv1{
+    width:400px;
+    height: 250px;
+    position: relative;
+    top: -230px;
+    left:200px;
+    opacity: 0.3;
+}
+
+.aboutButton{
+    color:rgb(19, 144, 144);
+    margin-left: 50px;
+
+    &:hover{
+        color:cyan;
+    }
+    
+}

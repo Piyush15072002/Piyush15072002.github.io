@@ -1,0 +1,58 @@
+
+.hackathon{
+    width: 400px;
+    height: 400px;
+    text-align: center;
+  
+    position: relative;
+    top:-540px;
+    left:600px;
+
+
+
+
+    .sun{
+        width: 100%;
+        height: 100%;
+        opacity: 0.5;
+        color:yellow;
+        
+
+        &:hover{
+            transform: rotate(10000deg);
+            transition: 20s;
+        }
+    }
+
+    p{
+        width: 60%;
+        // border: 1px solid white;
+        height: 50%;
+        font-family: 'rancho';
+        line-height:30px;
+        color:rgb(255, 255, 255);
+        position: relative;
+        font-size:25px;
+        top:-300px;
+        left:80px;
+        letter-spacing:1px;
+        opacity: 0.5;
+
+        &:hover{
+            color:white;
+            opacity: 1;
+        }
+    }
+}
+
+
+
+.aboutButton{
+    color:rgb(19, 144, 144);
+    margin-left: 50px;
+
+    &:hover{
+        color:cyan;
+    }
+    
+}
