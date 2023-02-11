@@ -1,5 +1,6 @@
 {
-  "name": "myapp",
+  "name": "piyushpant",
+  "homepage": "https://piyush15072002.github.io/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,6 +12,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "animate.css": "^4.1.1",
+    "gh-pages": "^5.0.0",
     "gsap-trial": "^3.11.4",
     "loaders.css": "^0.1.2",
     "react": "^18.2.0",
@@ -25,6 +27,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
