@@ -1,8 +1,8 @@
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './index.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBook, faBriefcase, faCode, faEnvelope, faGraduationCap, faHome, faSchool, faUser } from '@fortawesome/free-solid-svg-icons';
-import { faGithub, faLinkedin, faOrcid, faResearchgate, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedin, faOrcid, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 
 const Sidebar = () => (
