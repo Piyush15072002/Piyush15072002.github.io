@@ -52,8 +52,8 @@ const Home = () => {
 
                     <br />
 
-                    <h2> <i>
-                        <AnimatedLetter letterClass={letterClass} strArray={jobArray} index={31} /></i>
+                    <h2>
+                        <AnimatedLetter letterClass={letterClass} strArray={jobArray} index={31} />
                     </h2>
 
 
