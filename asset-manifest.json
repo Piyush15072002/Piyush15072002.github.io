@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3f77d786.css",
+    "main.js": "/static/js/main.c850ccbb.js",
+    "static/js/787.c85a0f5d.chunk.js": "/static/js/787.c85a0f5d.chunk.js",
+    "static/media/a.gif": "/static/media/a.e4560c98120fb6f2e62e.gif",
+    "static/media/j.gif": "/static/media/j.3cfd8f259f4cbe285825.gif",
+    "static/media/f.gif": "/static/media/f.5b69d48d3a6d7d17b1a7.gif",
+    "static/media/q.gif": "/static/media/q.0f7a94055e4fa2fd85bf.gif",
+    "static/media/c.gif": "/static/media/c.7d5e02b4563129f2bc06.gif",
+    "static/media/p.gif": "/static/media/p.6b2a3702f88d32b908ee.gif",
+    "static/media/b.gif": "/static/media/b.76cbe226b5142c028e53.gif",
+    "static/media/i.gif": "/static/media/i.5fd12b9899d074a5327f.gif",
+    "static/media/n.gif": "/static/media/n.909666183f9bea4076d0.gif",
+    "static/media/o.gif": "/static/media/o.57fe1e6aee7aa1bc9e0a.gif",
+    "static/media/m.gif": "/static/media/m.0d7f36156a223c39de9b.gif",
+    "static/media/h.gif": "/static/media/h.ce273d8a16658c1f16c6.gif",
+    "static/media/l.gif": "/static/media/l.0ae5e200ccdbc8c1797b.gif",
+    "static/media/k.gif": "/static/media/k.d1aad964a4a7aeba9b5b.gif",
+    "static/media/python.png": "/static/media/python.91072be85b01ef0961a8.png",
+    "static/media/g.gif": "/static/media/g.9b84c433e09b9efee393.gif",
+    "static/media/d.gif": "/static/media/d.c4b10a14bbacc145e415.gif",
+    "static/media/e.gif": "/static/media/e.ee3c93ed185c08f9150c.gif",
+    "static/media/js.png": "/static/media/js.92169892ea013a5154bd.png",
+    "static/media/su2.jpg": "/static/media/su2.188d410b10350020721f.jpg",
+    "static/media/cplus.png": "/static/media/cplus.d8e635a31aa5d6c69819.png",
+    "static/media/kv1.jpg": "/static/media/kv1.a3eb7b06d7302b74acb5.jpg",
+    "static/media/helvetica-neu.ttf": "/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/LaBelleAurore.woff2": "/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/react.png": "/static/media/react.3b492bade043821ded42.png",
+    "static/media/flask.png": "/static/media/flask.0338dc304363bd3f6a51.png",
+    "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/index.html",
+    "static/media/marker.svg": "/static/media/marker.fb4e429e8c342b6e95d25253987d1dcb.svg",
+    "main.3f77d786.css.map": "/static/css/main.3f77d786.css.map",
+    "main.c850ccbb.js.map": "/static/js/main.c850ccbb.js.map",
+    "787.c85a0f5d.chunk.js.map": "/static/js/787.c85a0f5d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f77d786.css",
+    "static/js/main.c850ccbb.js"
+  ]
+}
