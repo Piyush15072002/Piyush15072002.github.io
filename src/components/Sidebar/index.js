@@ -46,7 +46,7 @@ const Sidebar = () => (
                 <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://github.com/Piyush15072002"
+                    href="https://github.com/PiyushWithPant"
                     title="GitHub | Piyush Pant"
                 >
                     <FontAwesomeIcon className="github" icon={faGithub} color="#4d4d4e" />
