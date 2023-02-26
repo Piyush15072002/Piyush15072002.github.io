@@ -35,6 +35,8 @@ const Research = () => {
                         <li>
                             Pant, P., Rajawat, A. S., Goyal, S. B., Bedi, P., Verma, C., Raboaca, M. S., &amp; Enescu, F. M. (2022). Authentication and authorization in modern web apps for data security using Nodejs and role of dark web. Procedia Computer Science, 215, 781-790. https://doi.org/10.1016/j.procs.2022.12.080
                         </li>
+
+
                         <li>
                             P. Pant et al., "Using Machine Learning for Industry 5.0 Efficiency Prediction Based on Security and Proposing Models to Enhance Efficiency," 2022 11th International Conference on System Modeling & Advancement in Research Trends (SMART), Moradabad, India, 2022, pp. 909-914, doi: 10.1109/SMART55829.2022.10047387.
                         </li>
